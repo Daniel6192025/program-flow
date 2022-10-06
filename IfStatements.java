@@ -18,28 +18,21 @@ public class IfStatements
             System.out.println("SUCCESS");
         } else {
             System.out.println("FAILURE");
-            {
-            }
-            if (b == 2) {
-                System.out.println("SUCCESS");
-            } else {
-                System.out.println("FAILURE");
-            }
         }
-        {    
-            if (c != 1) {
-                System.out.println("SUCCESS");
-            } else {
-                System.out.println("FAILURE");
-            }
+        if (b == 2) {
+            System.out.println("SUCCESS");
+        } else {
+            System.out.println("FAILURE");
         }
-        {
-
-            if (d == -8 && a == 4) {
-                System.out.println("SUCCESS");
-            } else {
-                System.out.println("FAILURE");
-            }
+        if (c != 1) {
+            System.out.println("SUCCESS");
+        } else {
+            System.out.println("FAILURE");
+        }
+        if (d == -8 && a == 4) {
+            System.out.println("SUCCESS");
+        } else {
+            System.out.println("FAILURE");
         }
     }
 
